@@ -1,0 +1,50 @@
+/* ----------- DESIGN SYSTEM ----------- */
+:root {
+	--dark-blue: #334253;
+	--medium-blue: #5357b6;
+	--light-blue: #c5c6ef;
+	--dark-gray: #67727e;
+	--light-gray: #e9ebf0;
+	--lighter-gray: #f5f6fa;
+	--white: #ffffff;
+	--soft-red: #ed6368;
+	--pale-red: #ffb8bb;
+
+	--font-primary: 'Rubik', sans-serif;
+	--fs-heading-l: 1.5rem;
+	--fs-heading-m: 1rem;
+	--fs-body: 1rem;
+
+	--radius: 8px;
+
+	--space-200: 8px;
+	--space-300: 12px;
+	--space-400: 16px;
+	--space-500: 18px;
+	--space-600: 20px;
+	--space-700: 24px;
+	--space-800: 32px;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--lighter-gray);
+	color: var(--dark-gray);
+	font-family: var(--font-primary);
+	font-size: var(--fs-body);
+	line-height: 1.5;
+	padding: var(--space-400);
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}

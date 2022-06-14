@@ -1,0 +1,21 @@
+form {
+	background: var(--white);
+	border-radius: var(--radius);
+	margin-top: var(--space-400);
+	padding: var(--space-400);
+}
+
+textarea {
+	width: 100%;
+	font: inherit;
+	padding: var(--space-400);
+	border: 1px solid var(--light-gray);
+	border-radius: var(--radius);
+}
+
+.formFooter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: var(--space-400);
+}

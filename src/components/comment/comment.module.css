@@ -1,0 +1,68 @@
+.comment {
+	padding: var(--space-400);
+	background-color: var(--white);
+	border-radius: var(--radius);
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+	gap: var(--space-400);
+	margin-top: var(--space-400);
+}
+
+.commentHeader {
+	display: flex;
+	gap: var(--space-400);
+	align-items: center;
+	line-height: 1;
+}
+
+.commentHeader h2 {
+	color: var(--dark-blue);
+	font-weight: 500;
+	font-size: var(--fs-heading-m);
+}
+
+.youIcon {
+	background-color: var(--medium-blue);
+	color: var(--white);
+	padding: 3px 6px;
+	border-radius: 2px;
+}
+
+.commentFooter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.counter {
+	background-color: var(--lighter-gray);
+	display: flex;
+	gap: var(--space-400);
+	align-items: center;
+	padding: var(--space-300);
+	border-radius: var(--radius);
+	justify-content: center;
+	line-height: 1;
+}
+
+.count {
+	color: var(--medium-blue);
+	font-weight: 500;
+}
+
+.voteButton {
+	all: unset;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.replies {
+	border-left: 2px solid var(--light-gray);
+	padding-left: var(--space-400);
+}
+
+.buttonGroup {
+	display: flex;
+	gap: var(--space-400);
+}

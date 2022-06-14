@@ -1,0 +1,17 @@
+.iconButton {
+	all: unset;
+	cursor: pointer;
+	font-weight: 500;
+	display: flex;
+	gap: var(--space-200);
+	align-items: center;
+	color: var(--medium-blue);
+}
+
+.blue {
+	color: var(--medium-blue);
+}
+
+.red {
+	color: var(--soft-red);
+}

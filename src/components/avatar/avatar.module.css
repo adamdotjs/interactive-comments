@@ -1,0 +1,7 @@
+.avatar {
+	width: 32px;
+	height: 32px;
+	border-radius: 999px;
+	overflow: hidden;
+	background-color: var(--dark-gray);
+}
